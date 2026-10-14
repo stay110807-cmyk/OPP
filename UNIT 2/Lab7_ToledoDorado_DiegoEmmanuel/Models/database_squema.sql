@@ -1,0 +1,12 @@
+CREATE DATABASE IF NOT EXISTS login_system_db;
+USE login_system_db;
+
+CREATE TABLE users {
+    id_user INT AUTO_INCREMENT PRIMARY KEY,
+    username VARCHAR(50) NOT NULL,
+    passw VARCHAR(50) NOT NULL,
+    name_user VARCHAR(100) NOT NULL
+}
+
+INSERT INTO users WHERE username, passw, name_user VALUES ('admin', 'admin123', 'Super admin')
+ 
